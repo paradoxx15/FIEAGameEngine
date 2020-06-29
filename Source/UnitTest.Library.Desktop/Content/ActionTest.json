@@ -1,0 +1,21 @@
+{
+  "Name": {
+    "String": "Groceries"
+  },
+  "Actions": {
+    "table": [
+      {
+        "class": "ActionIncrement",
+        "table": {
+          "Target": {
+            "string": "Value"
+          },
+          "Value": {
+            "integer": 0
+          }
+        }
+      }
+    ]
+  }
+}
+          

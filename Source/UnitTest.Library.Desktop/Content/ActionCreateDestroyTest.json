@@ -1,0 +1,77 @@
+{
+  "Name": {
+    "String": "Florida"
+  },
+  "Sectors": {
+    "table": [
+      {
+        "class": "Sector",
+        "table": {
+          "Name": {
+            "string": "FIEA"
+          },
+          "Entities": {
+            "table": [
+              {
+                "class": "Entity",
+                "table": {
+                  "Name": {
+                    "string": "Paul"
+                  },
+                  "Actions": {
+                    "table": [
+                      {
+                        "class": "ActionCreateAction",
+                        "table": {
+                          "ActionName": {
+                            "string": "CreatedIncrement"
+                          },
+                          "Prototype": {
+                            "string": "ActionIncrement"
+                          },
+                          "Target": {
+                            "string": "Value"
+                          },
+                          "Step": {
+                            "integer": 2
+                          },
+                          "Value": {
+                            "integer": 0
+                          }
+                        }
+                      },
+                      {
+                        "class": "ActionIncrement",
+                        "table": {
+                          "Name": {
+                            "string": "DeleteMe"
+                          },
+                          "Target": {
+                            "string": "Value"
+                          },
+                          "Value": {
+                            "integer": 0
+                          }
+                        }
+                      },
+                      {
+                        "class": "ActionDestroyAction",
+                        "table": {
+                          "Action": {
+                            "string": "DeleteMe"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+          
+          

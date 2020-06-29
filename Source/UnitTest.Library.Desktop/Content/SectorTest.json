@@ -1,0 +1,28 @@
+{
+  "Name": {
+    "String": "FIEA"
+  },
+  "Entities": {
+    "table": [
+      {
+        "class": "Avatar",
+        "table": {
+          "Name": {
+            "String": "Paul" 
+          },
+          "Health": {
+            "Integer": 300
+          }
+        }
+      },
+      {
+        "class": "Entity",
+        "table": {
+          "Name": {
+            "String": "Tom"
+          }
+        }
+      }
+    ]
+  }
+}

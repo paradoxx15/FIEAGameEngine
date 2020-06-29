@@ -1,0 +1,75 @@
+{
+  "Name": {
+    "String": "Florida"
+  },
+  "Patients": {
+    "integer": 0
+  },
+  "Sectors": {
+    "table": [
+      {
+        "class": "Sector",
+        "table": {
+          "Name": {
+            "String": "FIEA"
+          },
+          "Entities": {
+            "table": [
+              {
+                "class": "Avatar",
+                "table": {
+                  "Name": {
+                    "String": "Paul"
+                  },
+                  "Health": {
+                    "Integer": 300
+                  }
+                }
+              },
+              {
+                "class": "Entity",
+                "table": {
+                  "Name": {
+                    "String": "Tom"
+                  },
+                  "Actions": {
+                    "table": [
+                      {
+                        "class": "ActionIncrement",
+                        "table": {
+                          "Target": {
+                            "string": "Florida.Patients"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "class": "Sector",
+        "table": {
+          "Name": {
+            "String": "UCF"
+          },
+          "Entities": {
+            "table": [
+              {
+                "class": "Avatar",
+                "table": {
+                  "Name": {
+                    "String": "Corona Virus"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

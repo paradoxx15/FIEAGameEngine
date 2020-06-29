@@ -1,0 +1,59 @@
+{
+  "Name": {
+    "String": "While"
+  },
+  "Condition": {
+    "string": "TestCondition"
+  },
+  "TestCondition": {
+    "integer": 2
+  },
+  "Value": {
+    "integer": 0
+  },
+  "Preamble": {
+    "class": "ActionIncrement",
+    "table": {
+      "Name": {
+        "string": "Preamble1"
+      },
+      "Target": {
+        "string": "While.Value"
+      }
+    }
+  },
+  "Actions": {
+    "table": [
+      {
+        "class": "ActionIncrement",
+        "table": {
+          "Target": {
+            "string": "While.TestCondition"
+          },
+          "Step": {
+            "integer": -1
+          }
+        }
+      }
+    ]
+  },
+  "Postamble": {
+    "class": "ActionList",
+    "table": {
+      "Name": "Postamble1",
+      "Actions": {
+        "table": [
+          {
+            "class": "ActionIncrement",
+            "table": {
+              "Target": {
+                "string": "While.Value"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+          

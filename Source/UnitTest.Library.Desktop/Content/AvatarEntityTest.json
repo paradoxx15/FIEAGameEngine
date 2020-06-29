@@ -1,0 +1,20 @@
+{
+	"Name": {
+		"String": "Paul"
+	},
+	"Actions": {
+		"table": [
+			{
+				"class": "ActionIncrement",
+				"table": {
+					"Target": {
+						"string": "Paul.Health"
+					}
+				}
+			}
+		]
+	},
+	"Health": {
+		"Integer": 20
+	}
+}

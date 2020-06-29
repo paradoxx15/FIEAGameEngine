@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SListTests.cpp" />
+    <ClCompile Include="FooTest.cpp" />
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp" />
+    <ClCompile Include="DefaultHashTest.cpp" />
+    <ClCompile Include="HashMapTest.cpp" />
+    <ClCompile Include="DatumTests.cpp" />
+    <ClCompile Include="ScopeTests.cpp" />
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp" />
+    <ClCompile Include="TypeManagerTests.cpp" />
+    <ClCompile Include="JsonCPPTest.cpp" />
+    <ClCompile Include="JsonParseMasterTests.cpp" />
+    <ClCompile Include="JsonTableParseHelperTests.cpp" />
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp" />
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTests.cpp" />
+    <ClCompile Include="SectorTests.cpp" />
+    <ClCompile Include="WorldTests.cpp" />
+    <ClCompile Include="ActionTests.cpp" />
+    <ClCompile Include="EventTests.cpp" />
+    <ClCompile Include="EventComponentsTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{b262e791-a934-43e8-ae5c-a0d878bf73ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{af4a47ed-e63e-4b1a-b08b-62edc94d3d3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\AvatarEntityTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\SectorTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\WorldTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ActionTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ActionCreateDestroyTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ActionListWhileTest.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ReactionTest.json">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+</Project>

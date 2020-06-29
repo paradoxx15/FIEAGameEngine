@@ -1,0 +1,100 @@
+{
+  "Name": {
+    "String": "Florida"
+  },
+  "Sectors": {
+    "table": [
+      {
+        "class": "Sector",
+        "table": {
+          "Name": {
+            "string": "FIEA"
+          },
+          "Entities": {
+            "table": [
+              {
+                "class": "Entity",
+                "table": {
+                  "Name": {
+                    "string": "Paul"
+                  },
+                  "Actions": {
+                    "table": [
+                      {
+                        "class": "ActionEvent",
+                        "table": {
+                          "Subtype": {
+                            "string": "TestIncrement"
+                          },
+                          "Delay": {
+                            "integer": 0
+                          },
+                          "Target": {
+                            "string": "Value"
+                          },
+                          "Step": {
+                            "integer": 2
+                          }
+                        }
+                      },
+                      {
+                        "class": "ActionEvent",
+                        "table": {
+                          "Subtype": {
+                            "string": "TestIncrement"
+                          },
+                          "Delay": {
+                            "integer": 0
+                          },
+                          "Target": {
+                            "string": "Value"
+                          },
+                          "Step": {
+                            "integer": 1
+                          }
+                        }
+                      },
+                      {
+                        "class": "ReactionAttributed",
+                        "table": {
+                          "Subtype": {
+                            "string": "FakeReaction"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "Reaction": {
+                    "class": "ReactionAttributed",
+                    "table": {
+                      "Subtype": {
+                        "string": "TestIncrement"
+                      },
+                      "Actions": {
+                        "table": [
+                          {
+                            "class": "ActionIncrement",
+                            "table": {
+                              "Target": {
+                                "string": "ThisShouldNotBreak"
+                              },
+                              "Value": {
+                                "integer": 0
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+          
+          
